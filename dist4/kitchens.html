@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250308003621">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<header id="mainHeader" class="header">
+			<div class="header__container">
+				<div class="header__wrapp">
+
+					<div class="header__logo logo">
+						<a href="#"><img class="logo__icon" src="img/SecondLogoWhite.svg" alt="Image"></a>
+					</div>
+					<div class="header__menu menu">
+
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Про нас</a></li>
+								<li class="menu__item catalog"><a target="_blank" href="secondLayer.html" class="menu__link">Каталог</a>
+									<div class="menu__sub-menu">
+										<ul class="catalog__list">
+											<li class="catalog__item"><a href="#" class="catalog__link hiden">Кухні</a></li>
+											<li class="catalog__item"><a href="#" class="catalog__link hiden">шафи</a></li>
+											<li class="catalog__item"><a href="#" class="catalog__link hiden">спальні кімнати</a></li>
+											<li class="catalog__item"><a href="#" class="catalog__link hiden">Пральні кімнати & Санвузли</a></li>
+											<li class="catalog__item"><a href="#" class="catalog__link hiden">Гардеробні </a></li>
+											<li class="catalog__item"><a href="#" class="catalog__link hiden">Коридор</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="menu__item contact"><a href="#" class="menu__link">Контакти</a>
+									<div class="menu__sub-menu contact-menu">
+										<h4>Контактні мережі</h4>
+										<ul class="contact__list">
+											<li class="contact__item phone"><a href="#" class="contact__link ">+ 380 97 057 46 83</a></li>
+											<li class="contact__item insta"><a href="#" class="contact__link">@ prestige_comfort</a></li>
+											<li class="contact__item telegram"><a href="#" class="contact__link">@ prestige_comfort</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="page__preview preview">
+				<div class="page__container">
+					<div class="preview__box">
+						<div class="preview__navigate nav">
+							<div class="nav__btn">
+								<a href="#"><span class="preview__nav"></span></a>
+							</div>
+							<div class="nav__title title">
+								<a href="home.html">
+									<h3 class="title__back">повернутися до каталогу</h3>
+								</a>
+							</div>
+						</div>
+						<div class="preview__describe descrb">
+							<div class="descrb__title">
+								Кухні
+							</div>
+							<div class="descrb__text">
+								<p> lorem100Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ea doloribus accusamus! Et non, eaque reiciendis aut, voluptatum error ut, minus iste deleniti blanditiis quas? Dolores ea a fugiat harum sed ipsum quas ex, deleniti mollitia quasi beatae ipsam quibusdam.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="articles">
+				<div class="articles__container">
+					<!-- <div class="articles__filter filter-articles">
+                                <button data-filter="*" class="filter-articles__item active" type="button">Show All</button>
+                                <button data-filter="loft" class="filter-articles__item" type="button">loft</button>
+                                <button data-filter="futuristic" class="filter-articles__item" type="button">futuristic</button>
+                            </div>-->
+					<div data-iso-items class="articles__items">
+						<article data-iso-item data-filter="loft" class="articles__item article">
+							<div data-gallery class="article__gallery">
+								<a href="img/kitchen44.webp" class="article__image"> <!-- це фото яке видно на сторінці -->
+									<img src="img/kitchen44.webp" alt="Image">
+								</a>
+								<!-- це фото які  НЕ видно на сторінці  і вони є елементами  LightGallery-->
+								<a href="img/dressroom.webp" class="gallery__image">
+									<img alt="Превью" src="img/kitchen.webp" class="gallery__preview">
+								</a>
+								<a href="img/kitchen.webp" class="gallery__image">
+									<img alt="Превью" src="img/dressroom.webp" class="gallery__preview">
+								</a>
+
+							</div>
+							<article class="article__body">
+								<div class="article__date"></div>
+
+								<h4 class="artickle__title">
+									<a href="#" data-link class="article__link-title"> кухня змонтована в квартирі </a>
+								</h4>
+							</article>
+						</article>
+						<article data-iso-item data-filter="futuristic" class="articles__item article">
+							<a href="#" class="article__image">
+								<img src="img/kitchen33.webp" alt="Image">
+							</a>
+							<article class="article__body">
+								<div class="article__date"></div>
+								<h4 class="artickle__title">
+									<a href="#" class="article__link-title"> name of furniture kind</a>
+								</h4>
+
+							</article>
+						</article>
+						<article data-iso-item data-filter="loft" class="articles__item article">
+							<a href="#" class="article__image">
+								<img src="img/kitchen44.webp" alt="Image">
+							</a>
+							<article class="article__body">
+								<div class="article__date"></div>
+								<h4 class="artickle__title">
+									<a href="#" class="article__link-title"> name of furniture kind</a>
+								</h4>
+
+							</article>
+						</article>
+						<article data-iso-item data-filter="futuristic" class="articles__item article">
+							<a href="#" class="article__image">
+								<img src="img/kitchen55.webp" alt="Image">
+							</a>
+							<article class="article__body">
+								<div class="article__date"></div>
+								<h4 class="artickle__title">
+									<a href="#" class="article__link-title"> name of furniture kind</a>
+								</h4>
+
+							</article>
+						</article>
+						<article data-iso-item data-filter="loft" class="articles__item article">
+							<a href="#" class="article__image">
+								<img src="img/kitchen.webp" alt="Image">
+							</a>
+							<article class="article__body">
+								<div class="article__date"></div>
+								<h4 class="artickle__title">
+									<a href="#" class="article__link-title"> name of furniture kind</a>
+								</h4>
+
+							</article>
+						</article>
+						<article data-iso-item data-filter="futuristic" class="articles__item article">
+							<a href="#" class="article__image">
+								<img src="img/hallway.webp" alt="Image">
+							</a>
+							<article class="article__body">
+								<div class="article__date"></div>
+								<h4 class="artickle__title">
+									<a href="#" class="article__link-title"> name of furniture kind</a>
+								</h4>
+							</article>
+						</article>
+						<article data-iso-item data-filter="loft" class="articles__item article">
+							<a href="#" class="article__image">
+								<img src="img/sleepingRoom.webp" alt="Image">
+							</a>
+							<article class="article__body">
+								<div class="article__date"></div>
+								<h4 class="artickle__title">
+									<a href="#" class="article__link-title"> name of furniture kind</a>
+								</h4>
+							</article>
+						</article>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__wrapp prestige">
+					<div class="prestige__location">
+						<h3>Місцезнаходження цеху:</h3>
+						<div class="prestige__adress">
+							<span>вулиця Миколи Шпака, 3, Київ, 02000</span>
+						</div>
+					</div>
+					<div class="prestige__company company">
+						<div class="company__title">
+							<h3> Контакти</h3>
+						</div>
+						<ul class="company__list">
+							<li class="company__item phone-footer"><a href="#" class="company__link">+ 380 97 057 46 83</a></li>
+							<li class="company__item insta-footer"><a href="#" class="company__link">@ prestige_comfort</a></li>
+							<li class="company__item telegram-footer"><a href="#" class="company__link">@ prestige_comfort</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__created">
+					<p>Created by BBB Team</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20250308003621"></script>
+</body>
+
+</html>
